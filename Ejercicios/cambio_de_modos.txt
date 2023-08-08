@@ -1,0 +1,18 @@
+En Vim, puedes cambiar entre diferentes modos para realizar diferentes tareas. 
+  
+Los tres modos principales son:
+
+      1. Modo Normal (Comando): Este es el modo predeterminado en el que se encuentra Vim cuando lo abres. Aquí puedes moverte por el texto, realizar operaciones y comandos.
+         - Ingresa al modo normal presionando `Esc`.
+      
+      2. Modo de Inserción: En este modo, puedes escribir y editar texto como lo harías en cualquier otro editor de texto convencional.
+         - Cambia al modo de inserción presionando `i` antes del cursor.
+         - Cambia al modo de inserción después del cursor con `a`.
+         - Ingresa al modo de inserción en una nueva línea debajo con `o`.
+         - Ingresa al modo de inserción en una nueva línea encima con `O`.
+      
+      3. Modo Visual: En este modo, puedes seleccionar texto para realizar operaciones en el mismo.
+         - Ingresa al modo visual presionando `v`.
+         - Selecciona líneas completas en modo visual con `V`.
+      
+      * Experimenta y realiza los ejercicios con estos modos para aprovechar al máximo las capacidades de Vim.
