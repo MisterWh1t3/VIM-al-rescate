@@ -1,0 +1,14 @@
+La navegación en Vim se realiza principalmente en el Modo Normal, donde puedes moverte por el archivo de manera eficiente. Aquí tienes algunos atajos de navegación:
+
+- `h`, `j`, `k`, `l`: Utiliza estas teclas para moverte a la izquierda, abajo, arriba y derecha respectivamente.
+- `w`: Salta a la siguiente palabra.
+- `b`: Retrocede a la palabra anterior.
+- `gg`: Salta al principio del archivo.
+- `G`: Salta al final del archivo.
+- `0` (cero): Salta al principio de la línea.
+- `$`: Salta al final de la línea.
+- `Ctrl + F`: Desplázate hacia adelante una página.
+- `Ctrl + B`: Desplázate hacia atrás una página.
+- `:n`: Salta a la línea n (reemplaza "n" por el número de línea).
+
+Practica estos atajos para moverte de manera rápida y precisa a través de tu archivo en Vim.
