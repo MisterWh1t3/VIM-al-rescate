@@ -1,0 +1,6 @@
+Vim te permite deshacer y rehacer acciones en el Modo Normal. Esto es útil para corregir cambios no deseados o revertir decisiones. Aquí tienes cómo hacerlo:
+
+- `u`: Deshace la última acción realizada.
+- `Ctrl + r`: Rehace la última acción deshecha.
+
+Utiliza estos atajos para mantener un control preciso sobre tus ediciones y cambios en Vim.
