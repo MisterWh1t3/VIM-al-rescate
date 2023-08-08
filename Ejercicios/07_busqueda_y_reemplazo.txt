@@ -1,0 +1,9 @@
+Vim ofrece herramientas para buscar y reemplazar texto en tu archivo de manera eficiente. Aquí tienes cómo hacerlo:
+
+- `/texto`: Busca "texto" hacia adelante.
+- `?texto`: Busca "texto" hacia atrás.
+- `:s/buscar/sustituir/`: Reemplaza "buscar" con "sustituir" en la línea actual.
+- `:s/buscar/sustituir/g`: Reemplaza todas las ocurrencias de "buscar" con "sustituir" en la línea actual.
+- `:%s/buscar/sustituir/g`: Reemplaza todas las ocurrencias de "buscar" con "sustituir" en todo el archivo.
+
+Usa estos comandos para buscar y reemplazar texto de manera eficiente en Vim.
