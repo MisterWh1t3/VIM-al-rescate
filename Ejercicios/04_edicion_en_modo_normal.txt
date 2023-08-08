@@ -1,0 +1,12 @@
+El Modo Normal en Vim también te permite realizar operaciones de edición en el texto. Aquí tienes algunos atajos para editar en el Modo Normal:
+
+- `i`: Cambia al modo de inserción antes del cursor.
+- `a`: Cambia al modo de inserción después del cursor.
+- `o`: Inserta una nueva línea debajo y cambia al modo de inserción.
+- `O`: Inserta una nueva línea encima y cambia al modo de inserción.
+- `dd`: Elimina la línea actual.
+- `yy`: Copia la línea actual.
+- `p`: Pega el contenido copiado o cortado después del cursor.
+- `P`: Pega el contenido copiado o cortado antes del cursor.
+
+Utiliza estos atajos para editar y manipular el texto de manera eficiente en Vim.
