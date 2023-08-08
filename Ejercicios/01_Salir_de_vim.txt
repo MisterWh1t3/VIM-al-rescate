@@ -1,0 +1,57 @@
+EJERCICIO 01 - SALIR DE VIM.
+
+##################################################
+# Deberás de encontrar el modo de salir de aquí  #
+##################################################
+
+¿Cómo puedo salir de aquí?
+╔════════════════╗
+║No puedo salir!!║
+║  ( -_-)        ║
+║   |/||\        ║
+║   /  \         ║
+╚════════════════╝
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+##################################################
+#               GUARDAR / SALIR                  #
+##################################################
+
+Algunos de los comandos para guardar y salir:
+
+    :w            Guardar
+    :q            Cerrar si el documento no tiene cambios sin guardar
+
+    :q!           Cerrar /forzado/ (sin preguntas)
+    ZQ            Simil al anterior (recomendado)
+
+    :w | q        Guardar y cerrar
+    :wq           Simil al anterior
+    ZZ
+
+    :exi          Guardar y cerrar si hay cambios
+    :x            Simil al anterior (recomendado)
