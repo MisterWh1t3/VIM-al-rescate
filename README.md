@@ -64,3 +64,9 @@ Vim opera en tres modos principales: Modo Normal, Modo de Inserción y Modo Visu
 
 Vim es una herramienta poderosa y versátil. Aunque puede requerir tiempo para acostumbrarse, su eficiencia y capacidad de personalización lo hacen una herramienta valiosa para programadores, escritores y cualquier persona que trabaje con texto. A medida que explores y practiques, descubrirás cómo Vim puede mejorar significativamente tu flujo de trabajo de edición.
 
+Si quieres poner a prueba todo esto, tienes el comando 'vimtutor' que te permitirá aprender y poner a prueba vim de manera interactiva.
+
+Comando:
+vimtutor (Inglés)
+vimtutor es (Español)
+
