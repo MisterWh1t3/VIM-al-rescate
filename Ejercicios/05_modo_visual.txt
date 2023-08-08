@@ -1,8 +1,25 @@
-El Modo Visual en Vim te permite seleccionar texto de manera interactiva para realizar operaciones en él. Aquí tienes información sobre cómo usar el Modo Visual:
+El Modo Visual en Vim te permite seleccionar texto de manera interactiva para realizar operaciones en él. Aquí tienes información más detallada sobre cómo usar el Modo Visual y qué acciones puedes realizar:
 
 - `v`: Ingresa al modo visual y selecciona texto caracter por caracter.
 - `V`: Ingresa al modo visual y selecciona líneas completas.
 
-Una vez que hayas seleccionado el texto en el Modo Visual, puedes realizar acciones como copiar, cortar o cambiar el texto seleccionado.
+Una vez que hayas seleccionado el texto en el Modo Visual, puedes realizar acciones como copiar, cortar o cambiar el texto seleccionado utilizando comandos de Vim.
 
-Practica el Modo Visual para trabajar de manera más eficiente con selecciones de texto en Vim.
+Para copiar el texto seleccionado:
+1. Ingresa al Modo Visual presionando `v` o `V`.
+2. Selecciona el texto que deseas copiar.
+3. Presiona `y` (de "yank") para copiar el texto seleccionado.
+
+Para cortar el texto seleccionado:
+1. Ingresa al Modo Visual presionando `v` o `V`.
+2. Selecciona el texto que deseas cortar.
+3. Presiona `d` (de "delete") para cortar el texto seleccionado.
+
+Para cambiar (reemplazar) el texto seleccionado:
+1. Ingresa al Modo Visual presionando `v` o `V`.
+2. Selecciona el texto que deseas cambiar.
+3. Presiona `c` para entrar al Modo de Inserción.
+4. Escribe el nuevo texto.
+5. Presiona `Esc` para aplicar los cambios.
+
+Estos comandos te permiten manipular el texto seleccionado de manera eficiente en Vim. Experimenta con ellos para trabajar de manera más productiva con tus selecciones de texto.
