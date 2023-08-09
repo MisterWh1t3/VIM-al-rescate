@@ -1,72 +1,37 @@
-# VIM-al-rescate
+<div align="center">
+    <img src=".github/readme/banner-light.png#gh-light-mode-only" alt="HEE Vim banner (claro)" />
+    <img src=".github/readme/banner-dark.png#gh-dark-mode-only" alt="HEE Vim banner (oscuro)" />
+    <h1>¡VIM al rescate!</h1>
+</div>
 
-Bienvenido a esta introducción a Vim, un editor de texto con una poderosa y única filosofía de diseño. Vim es conocido por su eficiencia y su enfoque en la edición de texto rápida y sin esfuerzo. Aunque puede tener una curva de aprendizaje empinada al principio, dominar Vim te recompensará con una experiencia de edición fluida y altamente personalizable.
-
-
-**Modos de Vim: Navegando en un Nuevo Paradigma**
-Vim opera en tres modos principales: Modo Normal, Modo de Inserción y Modo Visual. 
-
-  **El Modo Normal** es donde empiezas. Desde aquí, puedes moverte rápidamente, eliminar y copiar texto, y ejecutar comandos.
-  
-  **El Modo de Inserción** te permite escribir y editar como en cualquier otro editor.
-  
-  **El Modo Visual** es excelente para seleccionar partes de texto antes de realizar operaciones en ellas.
-
-**Navegación Eficiente: Domina el Arte de Moverte**
-  En el **Modo Normal**, puedes navegar con una combinación de teclas intuitiva: 
-  
-  `h` para izquierda.
-  `j` para abajo.
-  `k` para arriba.
-  `l` para derecha.
-  `w` y `b` saltan entre palabras.
-  `$` y `0` te llevan al final e inicio de líneas respectivamente.
-  `gg` y `G` son tus entradas al principio y final del archivo.
+Bienvenido a esta introducción a [Vim](https://es.wikipedia.org/wiki/Vim): un editor de texto con una poderosa y única filosofía de diseño.
 
 
+## Contenido del repositorio
 
-**Edición con Estilo: De Cero a Héroe**
-  Edición en Vim se vuelve una experiencia fluida en el **Modo Normal**.
-  
-  Usa `i` para entrar en el **Modo de Inserción**
-  
-  `a` para insertar después del cursor. 
-  `o` para añadir líneas.
-  `O` para insertar arriba. 
-  Elimina líneas con `dd`.    
-  copia líneas con `yy`. 
-  Pega con `p` o `P`.
+Aquí podrás encontrar una guía de referencia rápida sobre los conceptos y comandos más básicos de Vim, así como una serie de ejercicios para que puedas practicar y familiarizarte con el editor.
+
+Todo lo necesario se encuentra en la carpeta `Ejercicios/`.
 
 
+### Cómo usar este repositorio
 
-**Poder Visual: Selecciona para Impactar**
-  El Modo Visual es la herramienta para seleccionar texto. 
-  
-  `v` te permite seleccionar caracteres.
-  `V` te permite seleccionar líneas enteras.
-  
-  Una vez seleccionado, puedes copiar, eliminar y más.
-
-**Control de Cambios: Deshacer y Rehacer**
-  En el Modo Normal: 
-  
-  `u` deshace la última acción.
-  `Ctrl + r` rehace.
-  
-  Mantén el control sobre tus cambios mientras editas.
+Solo tendrás que clonarlo y acceder a los ficheros de los ejercicios usando Vim; para ello, necesitarás tener `vim` instalado en tu sistema.
 
 
-**Buscar y Transformar: Dominando la Edición**
+## Recursos adicionales
 
-  Utiliza `/texto` y `?texto` para buscar hacia adelante y atrás. 
-  `:s/buscar/sustituir/` para reemplazar en la línea actual.
-  `:%s/buscar/sustituir/g` para reemplazar en todo el archivo.
+<!-- Enlace al vídeo de Youtube (posible <iframe>) -->
 
-Vim es una herramienta poderosa y versátil. Aunque puede requerir tiempo para acostumbrarse, su eficiencia y capacidad de personalización lo hacen una herramienta valiosa para programadores, escritores y cualquier persona que trabaje con texto. A medida que explores y practiques, descubrirás cómo Vim puede mejorar significativamente tu flujo de trabajo de edición.
+**`vimtutor`** (🇬🇧) / **`vimtutor es`** (🇪🇸)  
+Tutorial interactivo de Vim en tu terminal.
+*Instalado por defecto al instalar Vim.*
 
-Si quieres poner a prueba todo esto, tienes el comando 'vimtutor' que te permitirá aprender y poner a prueba vim de manera interactiva.
+**[openvim](https://www.openvim.com)**  
+Simulación interactiva de Vim en tu navegador, con un teclado virtual para guiarte.
 
-Comando:
-vimtutor (Inglés)
-vimtutor es (Español)
+**[Vim Adventures](https://vim-adventures.com)**  
+Un juego que te ayudará a aprender Vim de una manera divertida y entretenida.
 
+**[Vim Cheat Sheet](https://vim.rtorr.com/lang/es_es)**  
+Lista amplia de comandos de Vim.
